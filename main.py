@@ -6,7 +6,7 @@ import telebot
 from telebot import types
 import threading
 import queue
-from constants import TOKEN, UNKNOWN_FACES_DIR_PATH
+from constants import TOKEN, UNKNOWN_FACES_DIR_PATH, DEFAULT_ADMIN
 from helpers import clear_directory, unknown_faces_saver, unknown_faces_sender
 from markups import stats_menu, confirm_add_student, settings_menu, tolerance_menu
 
@@ -167,7 +167,7 @@ add_student = False
 num_faces = 0
 student_name = ''
 name = ''
-admin = NASIBA
+admin = DEFAULT_ADMIN
 unknown_face_num = -1
 tolerance = 0.5
 added_students_indexes = []

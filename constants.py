@@ -4,3 +4,4 @@ DATASET_DIR_PATH = ABSOLUTE_PATH + "faces"
 UNKNOWN_FACES_DIR_PATH = ABSOLUTE_PATH + 'unknown_faces'
 KNOWN_ENCODINGS_PATH = 'db/known_face_encodings.npy'
 KNOWN_FACES_PATH = 'db/known_face_names.npy'
+DEFAULT_ADMIN = '980443330'
