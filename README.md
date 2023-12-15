@@ -32,6 +32,7 @@ To use the Student Attendance Bot, follow these steps:
 2. **Configuration**: In the `constants.py` file define:
    - `TOKEN` for your Telegram bot
    - `ABSOLUTE_PATH` to the folder where your project is located
+   - `DEFAULT_ADMIN` - ID of the admin, to whom unknown faces will be sent by default
     
 3. **Add student photos**: Organize student photos into folders inside the `faces` directory. Each folder should be named after a student, and photos of that student should be placed within the corresponding folder.
 4. **Save encodings**: Run the `faces_to_encodings.py` to save the encodings of the students' photos:
